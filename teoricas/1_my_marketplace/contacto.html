@@ -6,17 +6,83 @@
     <title>primer_marketplace</title>
 </head>
 <body>
-    <h1>Contactos</h1>
+    <h1>My Marketplace</h1>
+
+    <hr>
+    <header> 
+        <a href="perfil.html" style='color:black'>Perfil</a>
+        <a href="compras.html" style=color:black>Mis Compras</a>
+        <a href="contacto.html" style=color:black>Contacto</a>
+        <a href="marketplace.html" style=color:black>Productos</a>
+    </header>
+    <hr>
+    <h2>Contacto</h2>
     <p>Esta es la sección del contacto, ¡Escribinos!</p>
 
-    <hr> 
-        <a href="perfil.html" style='text-decoration:none;color:black'>Perfil</a>
-        <a href="compras.html" style='text-decoration:none;color:black'>Mis Compras</a>
-        <a href="contacto.html" style='text-decoration:none;color:black'>Contacto</a>
-        <a href="marketplace.html" style='text-decoration:none;color:black'>Productos</a>
-    <hr>
-    
-    <hr>
+    <section>
+        <article>
+            Articulo 1
+        </article>
+        <article>
+            Articulo 2
+        </article>
+    </section>
+
+    <aside>
+        a la izquierda
+    </aside>
+    <br>
+    <main>
+        <fieldset>
+            <legend>Informacion Personal</legend>
+            <label for="nombre">Nombre </label><input type="text" name="nombre" tabindex="1">
+            <label for="apellido">Apellido </label><input type="text" name="apellido" tabindex="2">
+            <br>
+            <br>
+            <label for="tel">Telefono </label><input type="number" name="tel" tabindex="3">
+            <br>
+            <br>
+            <label for="mail">E-mail </label><input type="email" name="mail" tabindex="4">
+            <br>
+            <br>
+            <label for="fechadenac">Fecha de nacimiento </label><input type="date" tabindex="5" min="1920/01/01" max="2023/08/17">
+            <br>
+            <br>
+        </fieldset>    
+        <br>
+        <fieldset>
+            <legend>Forma de Pago y Entrega</legend>
+            <label for="pago">Metodo de pago</label>
+            <input type="radio"name="tipopago">Debito
+            <input type="radio"name="tipopago">Credito
+        <br>
+        <label for="entrega"></label>
+        <input type="checkbox" name="dia" value="Lunes">Lunes
+        <input type="checkbox" name="dia" value="Martes">Martes
+        <input type="checkbox" name="dia" value="Miércoles">Miércoles
+        <input type="checkbox" name="dia" value="Jueves">Jueves
+        <input type="checkbox" name="dia" value="Viernes">Viernes
+        <br>
+        <label for="precio">Precio</label>
+        <input type="number" min="0" max="1000" step="0,01">
+        <br>
+        <label for="tarjeta">Tarjeta </label>
+        <select name="tarjeta" id="">
+            <option value="amex">Amex</option>
+            <option value="visa" selected>Visa</option>
+            <option value="master">Masterd</option>
+        </select>
+
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="" cols="30" rows="10">
+          
+        </textarea>
+
+        </fieldset>
+    </main>
+    <br>
+    <footer>
         <a href="https://www.instagram.com/drops_ba/?hl=es-la" target="_blank" rel="noopener">
             Instagram
         </a>
@@ -26,6 +92,6 @@
         <a href="https://es-la.facebook.com/dropshot.sports/events" target="_blank" rel="noopener">
             Facebook
         </a>
-    <hr>
+    </footer>
 </body>
 </html>

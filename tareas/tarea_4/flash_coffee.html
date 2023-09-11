@@ -1,27 +1,55 @@
 <!DOCTYPE html>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap');
-</style>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="flash.css">
     <title>Flash Coffee</title>
 </head>
 <body> 
-    <font face="'Bricolage Grotesque', sans-serif">
-    <table border="1" width="70%" align="center" style="background-color: antiquewhite;">
+    <table border="1" width="70%" align="center">
         <tr>
             <td>
 
-                <h1 style="color:rgb(204, 142, 66)"><i><font face="'Bricolage Grotesque', sans-serif">FLASH COFFEE</font></i></h1>
-                <p1 style="color:rgb(104, 60, 6)"><i><font face="'Bricolage Grotesque', sans-serif">Bienvenido a nuestro café de especialidad con rapida entrega</font></i></p1>
+                <h1><i>FLASH COFFEE</i></h1>
+                <p1><i>Café de especialidad</i></p1>
+                <div class="container">
+  
+                    <ul class="slider">
+                      <li id="slide1">
+                        <img src="https://www.clarin.com/img/2022/11/07/dtGYh-45c_720x0__1.jpg" height="700" width="300"/>
+                      </li>
+                      <li id="slide2">
+                        <img src="https://www.clarin.com/img/2022/11/07/hPiZhjCWp_720x0__1.jpg" height="700" width="300"/>
+                      </li>
+                      <li id="slide3">
+                        <img src="https://resizer.iproimg.com/unsafe/880x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2022/06/537967.jpg" height="700" width="300"/>
+                      </li>
+                    </ul>
+                    
+                    <ul class="menu">
+                      <li>
+                        <a href="#slide1">1</a>
+                      </li>
+                      <li>
+                        <a href="#slide2">2</a>
+                      </li>
+                       <li>
+                        <a href="#slide3">3</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
             </td>
         </tr>
         <tr>
             <td>
 
-                <h2 style="color:rgb(204, 142, 66)"><font face="'Bricolage Grotesque', sans-serif">Variedades</font></h2>
+                <h2>Variedades</h2>
 
             </td>
         </tr>
@@ -29,7 +57,7 @@
         <tr>
             <td>
 
-                <p1 style="color:rgb(104, 60, 6)"><font face="'Bricolage Grotesque', sans-serif">Aca podes ver nuestras opciones de cafés</font></p1>
+                <p1>Aca podes ver nuestras opciones de cafés</p1>
 
 
 
@@ -87,9 +115,14 @@
         </tr>
                 </table>
             <tr>
-                <td align="center" style="background-color:rgb(169, 109, 4)">
-                    <a href="pedido.html" style="color:rgb(240, 237, 237)"><font face="'Bricolage Grotesque', sans-serif"><b>Realizar pedido</font></b></a>
-                        
+                <td align="center">
+                    <nav class="snack">
+                        <a href="snacks.html" style="color:rgb(0, 0, 0);"><b>¡Acompaña tu cafe con un snack!</b></a>
+                    </nav>
+                    <hr>
+                    <nav class="pedir">
+                        <a href="compra_flash.html" style="color:rgb(5, 5, 5);">Realizar pedido</a>
+                    </nav>    
                 </td>
             </tr>
 

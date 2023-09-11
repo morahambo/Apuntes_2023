@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&display=swap');
+    </style>
+    <link rel="stylesheet" href="compra.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café flash </title>
+</head>
+<body>
+    <body style="background-color: antiquewhite;">
+            <h1 ><i>FLASH COFFEE</i></h1>
+            <hr>
+
+        <hr>
+            <a href="flash_coffee.html" style="color:rgb(7, 7, 7);">Página principal</a>
+        <hr>
+        <h2>¡Realiza tu pedido!</h2>
+        <p>Completa las casillas para disfrutar tu Café</p>
+
+        <br>
+        <main>
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre </label><input type="text" name="nombre" tabindex="1">
+                <label for="apellido">Apellido </label><input type="text" name="apellido" tabindex="2">
+                <br>
+                <br>
+                <label for="empresa">Empresa </label><input type="text" name="empresa" tabindex="3">
+                <br>
+                <br>
+                <label for="direccion">Direccion </label><input type="text" name="direccion" tabindex="4">
+                <br>
+                <br>
+            </fieldset>    
+            <br>
+            <fieldset>
+                <legend>Pedido</legend>
+                <input type="checkbox" name="variedad" value="expreso">Café Expreso
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="doble">Café Doble
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="flash">Café Flash
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="mocha">Café Mocha
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="capuccino">Café Capuccino
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="brownie">Brownie de chocolate
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="scon">Scon de queso
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="alfajor">Alfajor de dulce de leche
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="variedad" value="brownie">Coquitos
+                <select name="cantidad" id="">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <legend>Forma de Pago y Entrega</legend>
+                <label for="pago">Metodo de pago</label>
+                <input type="radio"name="tipopago" tabindex="">Debito
+                <input type="radio"name="tipopago"tabindex="">Credito
+                <br>
+                <input type="checkbox" name="cupon" value="tengocupon">¡Tengo un cupón de beneficio!
+                <label for="cupon">:</label><input type="text" name="cupon" tabindex="">
+            <br>
+            <label for="tarjeta">Tarjeta </label>
+            <select name="tarjeta" id="">
+                <option value="amex">Amex</option>
+                <option value="visa" selected>Visa</option>
+                <option value="master">Masterd</option>
+            </select>
+            <br>
+            <br>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="" cols="30" rows="10">
+            
+            </textarea>
+
+            </fieldset>
+        </main>
+        <br>
+        <h4>
+            <a href="finalizado_flash.html" style="color:aliceblue;"><b>PEDIR</b></a>
+        </h4>
+        <footer>
+            <a title="instagram" href="https://www.instagram.com/flashcoffee/?hl=es" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/256/87/87390.png" alt="instagram" width="30" height="30"/></a>
+            <a title="twitter" href="https://twitter.com/flash_coffee" target="_blank" rel="noopener"><img src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png" alt="twitter" width="30" height="30"/></a>
+            <a title="facebook" href="https://www.facebook.com/flashcoffee/?locale=es_LA" target="_blank" rel="noopener"><img src="https://cdn-icons-png.flaticon.com/256/20/20673.png" alt="facebook" width="34" height="34"/></a>
+            
+        </footer>
+</body>
+</html>
