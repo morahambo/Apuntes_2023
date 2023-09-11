@@ -1,0 +1,108 @@
+.conteiner {
+    width: 500px;
+    height: 200px;
+    background: white;
+    padding: 10px;
+    border: 10px solid rgb(8, 12, 138);
+    margin: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.elemento {
+    color: white;
+    margin: 0.5px;
+    width: 80px;
+    height: 50px;
+    background: orange;
+    text-align: center;
+    border: 4px solid;
+    display: flex;
+}
+
+.elemento {
+    width: 60px;  /* 150px;  */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.p1{
+    color: black;
+}
+
+
+    
+    
+    
+    
+    /* -- Justify-contentJustify-content
+    display: flex;
+    Justify-content: center;
+    Justify-content: flex-end;
+    Justify-content: space-between;
+    Justify-content: flex-start;
+    Justify-content: space-around;
+    */
+    
+    
+    
+    /*-- Align-items  
+    display: flex;
+    align-items: flex-end;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline;
+    */
+
+    
+    /*-- Align-Content  
+    display: flex;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-between;
+    align-content: center;
+    align-content: stretch;
+    align-content: space-around;
+    */
+    
+    /*--- flex-basis
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    flex-direction: row;
+    */
+    
+    /*--- flex-grow   // en el va
+    
+    display: flex;
+    flex-shrink: 5; 
+    
+    display: flex;
+    flex-grow: 5;   
+    */
+    
+    
+    
+
+
+
+
+.elemento1 {
+    order: 1;
+}
+
+.elemento2 {
+    order: 2;
+}
+
+.elemento3 {
+    order: 3;
+}
+
+.elemento4 {
+    order: 4;
+}
