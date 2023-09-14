@@ -5,7 +5,7 @@
 
 ### CLASE 2
 # Tablas
-- primero hay que poner <<```"table"```js>>
+- primero hay que poner <```"table"```js>
 - <"th"> <"/th"> es Table Header
 - abajo de eso va <"td"> <"/td"> --> Table Data
     - Esas son las **filas**. Todas las td que haga adentro de una tabla, entre td son sus filas.
