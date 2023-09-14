@@ -48,7 +48,7 @@
 - Se puede combinar con Overflow
 
 ### JAVA
-- Todo termina con ;
+- Todo termina con ";"
 - Es un Interprete
 - Template strings → el texto es dinámico. Pongo las veriables y despues lo que quiero que aparezca, console.log.
     - Diapositiva 9.
