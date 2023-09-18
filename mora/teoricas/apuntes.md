@@ -5,7 +5,7 @@
 
 ### CLASE 2
 # Tablas
-- primero hay que poner <```"table"```js>
+- primero hay que poner ```"table"``` 
 - <"th"> <"/th"> es Table Header
 - abajo de eso va <"td"> <"/td"> --> Table Data
     - Esas son las **filas**. Todas las td que haga adentro de una tabla, entre td son sus filas.
@@ -87,4 +87,8 @@
 
     - **Prompt:** es para entrada, carga datos, variables.
     - **Alert:** es para salida, hace que "salte" un cartelito.
+    - getElementByid → trae algo cuando es único
+    - getElementsByClassName → trae una lista de todas las clases
+
+- **Para CAPTURAR UNE EVENTO**: let=
 
