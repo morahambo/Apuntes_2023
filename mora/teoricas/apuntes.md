@@ -92,3 +92,10 @@
 
 - **Para CAPTURAR UNE EVENTO**: let=
 
+# VUE JS
+## Angular:
+ej:
+- < cronometro> < /cronometro>
+    - se va a poner un widget de un cronometro que hiciste antes con HTML, CSS.
+- podes hacer dashboards.
+-"Stoman"
