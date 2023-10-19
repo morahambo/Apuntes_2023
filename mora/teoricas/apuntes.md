@@ -98,4 +98,16 @@ ej:
 - < cronometro> < /cronometro>
     - se va a poner un widget de un cronometro que hiciste antes con HTML, CSS.
 - podes hacer dashboards.
--"Stoman"
+
+# 12/10
+- v-bind
+- v-html
+- v-if
+- v-else
+---------
+- v-for
+- v-model → de lectura y escritura
+
+
+- "e" → evento
+    -ej; diap 14 → recuperar la X y la Y de ese evento.
