@@ -92,14 +92,14 @@
 
 - **Para CAPTURAR UNE EVENTO**: let=
 
-# VUE JS
+#### VUE JS
 ## Angular:
 ej:
 - < cronometro> < /cronometro>
     - se va a poner un widget de un cronometro que hiciste antes con HTML, CSS.
 - podes hacer dashboards.
 
-# 12/10
+## 12/10
 - v-bind
 - v-html
 - v-if
@@ -108,6 +108,35 @@ ej:
 - v-for
 - v-model → de lectura y escritura
 
-
+### 19/10
 - "e" → evento
-    -ej; diap 14 → recuperar la X y la Y de ese evento.
+    - ej; diap 14 → recuperar la X y la Y de ese evento.
+    - tiene muchas propiedades.
+        - se pueden ver desde inspeccionar.
+- **modifcar un evento** diap 15
+    - se va a modificar el evento @keyup.enter → cuando se suelta la tecla enter.
+    - @keydown.enter → solo apretar la tecla.
+- **To-do list**
+    - diapositiva 19: lo hace funcional
+
+### 26/10 WEB COMPONENTS
+- demo_u06
+- diap 25
+- pase de parametros.
+    - sepueden definir variables a nivel componente en **vue**
+   
+    - Vue.component('boton-web', {
+    data: function() {
+        return {
+            cantidad: 36
+        }
+    },
+        - ahí estaria diciendoque Messi tiene 36 años
+        - palabra clave: **data**
+- se pueden reutilizar componentes 
+    - por ejemplo para vaya subiendo el numero cuando se hacen clicks (6.04)
+- se agregan funciones(methods) 6.06
+- Cuando hay mas de un componente "hijo" hay que poner un div "padre" para que funcione todo.
+    - el padre le puede pasar propiedades al hijo.
+    - el hijo lo hace emitiendo
+        - padre: darle bola al emit:
